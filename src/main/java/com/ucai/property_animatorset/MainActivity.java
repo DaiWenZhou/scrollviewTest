@@ -14,7 +14,7 @@ import android.widget.ImageView;
 import java.security.PublicKey;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView mIvAnim;
+    private ImageView mIvAnim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 //                animatorSet.play(anim2).with(anim1);
                 break;
         }
-        animatorSet.setDuration(2000);
+        animatorSet.setDuration(5000);
         animatorSet.setInterpolator(new BounceInterpolator());
         animatorSet.start();
 
