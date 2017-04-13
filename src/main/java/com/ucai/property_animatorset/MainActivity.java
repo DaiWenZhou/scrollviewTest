@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
 //                animatorSet.play(anim2).with(anim1);
                 break;
         }
+        // animatorSet.setDuration(2500);
 //        animatorSet.setDuration(5000);
         animatorSet.setDuration(2500);
         animatorSet.setInterpolator(new BounceInterpolator());
